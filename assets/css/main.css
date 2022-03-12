@@ -1,0 +1,50 @@
+table{
+    width:100%;
+}
+.select_form {
+    text-align: center;
+}
+#example_filter{
+    float:right;
+}
+#example_paginate{
+    float:right;
+}
+label {
+    display: inline-flex;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+   
+}
+.row.entries {
+    display: block !important;
+    text-align: center;
+}
+@media only screen and (min-width: 576px){
+.select_form{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+}
+.wp-core-ui select {
+min-height: 37px !important;
+}
+select.form-select.form-select-sm {
+    margin-right: 10px;
+}
+input.wpsf-icon-search {
+    display: none;
+}
+.gravity_form_title {
+    background: #0f3d6c !important;
+    padding: 30px !important;
+    text-align: center !important;
+    color: #fff !important;
+}
+#wpcontent {
+ padding-left: 0px !important; 
+}
+.wp-core-ui select {
+ margin-left: 7px !important;
+margin-right: 7px !important;
+}
